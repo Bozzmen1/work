@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yellow Car</title>
+        
+        <style>
+            body {
+                min-width: 300px;
+            }
+            .div1 {
+                background-color: aqua;
+                background-image: url('img/yellow-car.jpg');
+                background-size: cover;
+                width:100%;
+                height: 500px;
+            }
+
+            
+            a {
+                text-decoration: none;
+                color: black;
+                display: block;
+                transition: 0.3s;
+            }
+            a:hover {
+                color: blue;
+                font-size: larger
+            }
+            .fornav {
+                display: flex;
+                width: 100%;
+                height: 50px;
+            }
+            .right {
+                display: flex;
+                width: 45%;
+                justify-content: center;
+                align-items: center;
+                column-gap: 5%;
+            }
+
+            .middle {
+                display: flex;
+                width: 10%;
+                justify-content: center;
+                background-image: url('img/cool-emoji.png');
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+
+            .left {
+                display: flex;
+                width: 45%;
+                justify-content: center;
+                align-items: center;
+                column-gap: 5%;
+            }
+            .forsmallnav {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                
+                
+            }
+            .menu {
+                color: white;
+            }
+            .logo {
+                color: white;
+                font-size: x-large;
+            }
+            .sign {
+                color: white;
+            }
+            .text {
+                color: white;
+                font-family: 'Times New Roman';
+                font-size: 60px;
+                font-weight: 600;
+                padding-left: 40px;
+            }
+            .price {
+                display: block;
+                margin-left: 40px;
+                margin-top: -20px;
+                width: 350px;
+                height: 60px;
+                border-radius: 10px;
+                border: none;
+            }
+            .price::placeholder {
+                padding-left: 15px;
+                margin-left: 15px;
+                font-size: larger;
+            }
+            .fordiv {
+                display: flex;
+                width: 100%;
+                margin-bottom: 500px;
+            }
+            .div2 {
+                width: 45%;
+                padding-left: 50px;
+                padding-top: 100px;
+            }
+            .text2 {
+                font-family: fantasy;
+                font-size: x-large;
+            }
+            .signup {
+                width: 100px;
+                height: 40px;
+                border-radius: 6px;
+                border: 2px solid blue;
+                background-color: none;
+                cursor: pointer
+            }
+            .signup:hover {
+                background-color:cornflowerblue
+            }
+            .signup:active {
+                background-color: rgb(71, 121, 213);
+            }
+            .textsignup {
+                color: blue;
+                margin: auto;
+                padding-left: 25px;
+                padding-top: 10px;
+            }
+            .div3 {
+                width: 55%;
+                height: 200px;
+                background-image: url('img/blue-car.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-top: 100px;
+            }
+            @media screen and (min-width: 801px) {
+                .menu,
+                .logo,
+                .sign {
+                    display: none;
+                }
+                .div2 {
+                    padding-left: 100px;
+                }
+            }
+            @media screen and (max-width: 800px) {
+                .div1 {
+                    background-position: 50% 50%;
+                }
+                .fornav {
+                    display: none;
+                }
+                .right,
+                .right a,
+                .middle,
+                .left,
+                .left a {
+                    display: none;
+                }
+                }
+            @media screen and (max-width: 620px) {
+                .div1 {
+                    background-position: 100% 100%;
+                }
+                .text {
+                    text-align: center;
+                }
+                .price {
+                    margin: auto;
+                    width: 80%;
+                }
+                .fordiv {
+                    display: contents;
+                }
+                .div2 {
+                    width:100%;
+                    padding:0%
+                }
+                .text2 {
+                text-align: center;
+                }
+                .text3 {
+                    text-align: center;
+                }
+                .signup {
+                    margin: auto;
+                }
+                .div3 {
+                    margin: auto;
+                    margin-top: 30px;
+                }
+                
+            } 
+
+        </style>
+    </head>
+
+    <body>
+        <div class="fornav">
+            <div class="right">
+                <a href="#">Gas</a>
+                <a href="#">Brake</a>
+                <a href="#">Turbo</a>
+                <a href="#">Get new car</a>
+                <a href="#">Find wheelies</a>
+            </div>
+            <div class="middle">
+            </div>
+            <div class="left">
+                <a href="#">Top locations</a>
+                <a href="#">Spesification</a>
+                <a href="#">Series</a>
+                <a href="#">Memes</a>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+        
+        <div class="div1">
+            <div class="forsmallnav">
+                <div class="menu">Menu</div>
+                <div class="logo">@LOGO</div>
+                <div class="sign">Sign In</div>
+            </div>
+            <p class="text">Yellow Car.<br>
+              Spend ur Money.
+            </p>
+            <input type="search" placeholder="Name your price..." class="price"/>
+            
+        </div>
+        <div class="fordiv">
+            <div class="div2">
+                <p class="text2">More cool cars?</p>
+                <p class="text3">Get 'em by signing up!</p>
+                <div class="signup">
+                    <p class="textsignup">Sign In</p>
+                </div>
+            </div>
+            <div class="div3">
+            </div>
+        </div>
+        
+    </body>
+    

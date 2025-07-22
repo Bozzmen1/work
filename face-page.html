@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+        <style>
+            .header {
+                width: 100%;
+                height: 75px;
+                background-color: rgba(7, 7, 90, 0.833);
+                display: flex;
+            }
+            .forfacebook {
+                width: 65%;
+            }
+            .facebook {
+                color: white;
+                font-family: Inter;
+                font-weight: bold;
+                font-size: 30px;
+                padding-left: 10%;
+            }
+            .login {
+                display: flex;
+
+            }
+            .foremail {
+                margin-top: 7px;
+                margin-left: 5px;
+            }
+            .email{
+                display: block;
+                color: white;
+            }
+            .emailform {
+                display: block;
+                color: black;
+            }
+            .keep {
+                color: white;
+            }
+            .forpass {
+                width: 40%;
+                margin-top: 7px;
+                margin-left: 5px;
+            }
+            .pass {
+                color: white;
+            }
+            .passform {
+                color: black;
+            }
+            .forget {
+                color: white;
+                margin-top: 1px;
+            }
+            .log-in {
+                display: inline;
+                height: 20px;
+                margin-top: 27px;
+                border-radius: 5px;
+                background-color: rgba(15, 15, 161, 0.341);
+                color: white;
+            }
+            .main {
+                display: flex;
+                background-color: lightgray;
+                height: 470px;
+            }
+            .main1 {
+                width: 65%;
+
+            }
+            .formain11 {
+                padding-top: 10px;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            .text11 {
+                color: rgba(7, 7, 90, 0.833);
+                font-family: Inter;
+                font-weight: bold
+            }
+            .img {
+                width: 85%;
+            }
+            .main2 {
+                width: 35%;
+                height: 500px;
+            }
+            .text21 {
+                font-family: 'Franklin Gothic';
+                font-size: xx-large;
+                font-weight: bolder;
+                margin-top: 10px;
+            }
+            .text22 {
+                margin-top: -30px;
+            }
+            .forflexform1 {
+                display: flex;
+                flex-direction: row;
+                width: 60%;
+            }
+            .formname {
+                width: 40%;
+                height: 25px;
+                border-radius: 5px;
+                border: 2px solid grey
+            }
+            .forflexform2 {
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+            }
+            .formlist {
+                width: 100%;
+                height: 25px;
+                border-radius: 5px;
+                border: 2px solid grey;
+                margin-top: 5px;
+            }
+            .fordate {
+                width: 60%;
+            }
+            .bday {
+                color:  rgba(7, 7, 90, 0.833);
+                font-family: 'Franklin Gothic';
+                margin-top: 10px;
+                margin-bottom: 5px;
+                font-size: large;
+            }
+            .thedate {
+                display: flex;
+                height: 25px;
+            }
+            .date {
+                border-radius: 3px;
+                height: 25px;
+            }
+            .why {
+                display: inline-block;
+                font-size: x-small;
+                margin-top: 2px;
+                color:  rgb(16, 16, 188);
+                margin-left: 5px;
+            }
+            .forradio {
+                margin-top: 10px;
+                width: 80%;
+            }
+            .notice {
+                font-size:x-small
+            }
+            a {
+                color:  rgb(16, 16, 188);
+                text-decoration: none;
+            }
+            .signbtn {
+                width: 35%;
+                height: 30px;
+                text-align: center;
+                border-radius: 5px;
+                background-color: rgb(24, 175, 24);
+                color: white;
+            }
+            .create {
+                font-size: small;
+            }
+
+            .thefooter {
+                width: 85%;
+                margin: auto;
+            }
+            .language {
+               display: flex;
+               flex-direction: row;
+                word-wrap: wrap; 
+                gap: 10px;
+                height: 18px;
+                margin-top: 5px;
+
+            }
+            .mobile {
+                display: flex;
+                width: 80%;
+                height: 40px;
+                flex-wrap: wrap; 
+                column-gap: 30px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="forfacebook">
+                <p class="facebook">facebook</p>
+            </div>
+            <div class=login>
+                <div class="foremail">
+                    <label for="email" class="email">Email or Phone</label>
+                    <input type="text" id="email" class="emailform" />
+                    <input type="checkbox" id="keep" />
+                    <label for="keep" class="keep">Keep me logged in</label>
+                </div>
+                <div class="forpass">
+                    <label for="pass" class="pass">Password</label>
+                    <input type="password" id="pass" class="passform" />
+                    <p class="forget">Forget your password</p>
+                </div>
+                <button type="button" class="log-in">Log in</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main1">
+                <div class="formain11">
+                    <div class="main11">
+                        <p class="text11">facebook helps you connect and share <br> with the people in your life</p>
+                        <img src="img\facebook connection.png" class="img" title="connection"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main2">
+                <p class="text21">Sign Up For Facebook</p>
+                <p class="text22">It's free and always will be.</p>
+                <div class="forflexform1">
+                    <input type="text" placeholder="First Name" class="formname"/> &nbsp;
+                    <input type="text" placeholder="Last Name" class="formname"/>
+                </div>
+                <div class="forflexform2">
+                    <input type="email" placeholder="Your Email" class="formlist"/>
+                    <input type="email" placeholder="Re-enter Email" class="formlist"/>
+                    <input type="password" placeholder="New Password" class="formlist"/>
+                </div>
+                <div class="fordate">
+                    <p class="bday">Birthday</p>
+                    <div class="thedate">
+                        <input type="date" class="date" />
+                        <p class="why">Why do i need to provide my birthday?</p>
+                    </div>
+                </div>
+                <div class="forradio">
+                    <input type="radio" id="female" value="female"/>
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" value="male" />
+                    <label for="male">Male</label>
+                    <p class="notice">By clicking Sign Up you agree to our <a href="#">Terms</a>, and that you have read<br> our <a href="#">Data Usage Policy,</a> including our <a href="#">Cookie Use</a></p>
+                <button type="submit" class="signbtn">Sign Up</button>
+                <hr class="line">
+                <p class="create"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        <footer>
+            <div class="thefooter">
+                <div class="language">
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                    <a href="#">English</a>
+                </div>
+                <hr>
+                <div class="mobile">
+                    <a href="#">Mobile</a>
+                    <a href="#">Find Friends</a>
+                    <a href="#">Badges</a>
+                    <a href="#">People</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Places</a>
+                    <a href="#">Apps</a>
+                    <a href="#">Games</a>
+                    <a href="#">Music</a>
+                    <a href="#">About</a>
+                    <a href="#">Create Ads</a>
+                    <a href="#">Create Page</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+            <p></p>
+            
+        </footer>
+    </body>
+    </body>
