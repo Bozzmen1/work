@@ -131,6 +131,7 @@
                 text-align: center;
                 color: #1860D3;
                 text-decoration: none;
+                
             }
             .forsearch {
                 width: 1575px;
@@ -207,16 +208,258 @@
             }
             
             .section {
-                font-size: xx-large;
                 margin-left: 300px;
                 margin-top: 90px;
-                background-color: black;
-                width: 1510px;
-                height: 775px;
+                background-color: white;
+                width: 1480px;
+                height: 750px;
                 position: fixed;
                 border-radius: 25px;
+                overflow: hidden;
+                padding-bottom: 20px;
+            }
+            
+            .forwelcome {
+                width: 100%;
+                height: 75px;
+                background-color: white;
+                position: absolute;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                z-index:1;
+            }
+              
+            .welcome {
+                font-size: xx-large;
+                margin-left: 20px;
             }
                 
+            .table {
+                width: 100%;
+                height: 100%;
+                padding-top: 75px;
+                padding-left: 20px;
+                position: relative;
+                overflow-y: scroll;
+                padding-bottom: 15px;
+                max-height: 700px;
+            }
+            .folder {
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+            }
+            .textfolder {
+                font-weight: 500;
+                font-size: larger;
+            }
+            .arrow1 {
+                transform: rotate(-90deg);
+                display: inline-block;
+                font-weight: 900;
+            }
+            .file {
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: sticky;
+                top: 0px;
+                z-index: 2;
+                background-color: white;
+            }
+            .textfile {
+                font-weight: 500;
+                font-size: larger;
+            }
+            .formini {
+                display: flex;
+                margin-right: 40px;
+            }
+            .mini2 {
+                height: 40px;
+                width: 70px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                background-color: #C2E7FF;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-left: 1px solid black;
+            }
+            .mini2:hover {
+                background-color: #B3D7EF;
+            }
+            .mini2:active {
+                background-color: #A1C4CD;
+            }
+            .mini1 {
+                height: 40px;
+                width: 70px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;
+            }
+            .mini1:hover {
+                background-color: #EDEDED;
+            }
+            .mini1:active {
+                background-color: #D8D8D8;
+            }
+            .mini {
+                background-image: url('img/tick-icon.png');
+                background-size: contain;
+                width: 15px;
+                height: 15px;
+                background-repeat: no-repeat;
+            }
+            .forfolder {
+                background-color: transparent;
+                height: 100%;
+                display:flex;
+                justify-content: start;
+                align-items: center;
+                border-radius: 25px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .forfolder:hover {
+                background-color: #ECF2FC;
+            }
+            .tables {
+                width: 100%;
+                text-align: left;
+                border-collapse: collapse;
+                margin-top: 30px;
+            }
+            th {
+                border-bottom: 1px solid black;
+                padding-bottom: 20px;
+            }
+            td {
+                border-bottom: 1px solid black;
+                
+            }
+            .nama {
+                width: 45%;
+            }
+            .alasan {
+            }
+            .pemilik {
+                width: 12%;
+            }
+            .lokasi {
+                width:18%;
+            }
+            tr:hover {
+                background-color: #F0F1F1;
+            }
+            .thead:hover {
+                background-color: transparent;
+            }
+            .theid {
+                padding-left: 20px;
+
+            }
+            .forid {
+                display: flex;
+                align-items: center;
+            }
+            .jpeg {
+                width: 20px;
+                height: 20px;
+                background-image: url('img/image-icon.png');
+                background-size: contain;
+                margin-right: 20px;
+                display: inline-block;
+            }
+            .acc {
+                display:flex;
+                align-items: center;
+            }
+            .foraccimg {
+                display:flex;
+                background-color: blue;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+            }
+            .accimg {
+                width: 35px;
+                height: 35px;
+                background-image: url('img/cool-emoji.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .accname {
+                margin-left: 10px;
+            }
+            .location {
+                width:12%;
+                height: 100%;
+
+                justify-content: space-between;
+                align-items: center;
+            }
+            .forallloc {
+                display: flex;
+                align-items: center;
+            }
+            .forloc {
+                width: 50%;
+                height: 100%;
+                border-radius: 25px;
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .forloc:hover {
+                background-color: #E1E2E2;
+            }
+            .locimg {
+                width: 25px;
+                height: 25px;
+                background-image: url('img/folder-icon.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .loctext {
+                margin-left: 15px;
+            }
+            .for3dot {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 70px;
+            }
+            .for3dot:hover {
+                background-color: #DCE0E8;
+            }
+            .thedot {
+                width: 25px;
+                height: 25px;
+                background-image: url('img/3-dot-icon.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
             .left {
                 background-color: #F8FAFD;
                 width: 65px;
@@ -247,7 +490,7 @@
                 background-position: center;
                 width: 35px;
                 height: 35px;
-            }
+            }        
         </style>
     </head>
     <body>
@@ -337,7 +580,607 @@
                 </div>
             </div>
         </div>
-        <div class="section">Hsmthsmth...</div>
+        <div class="section">
+            <div class="forwelcome">
+                <p class="welcome">Selamat datang di Drive</p>
+                <div class="foradjust" style="margin-right: 30px;">
+                    <div class="adjust" style="background-image: url('img/info-icon.png');"></div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="folder">
+                    <div class="forfolder"><p class="textfolder"> <span class="arrow1"> &#9013;</span> &nbsp; &nbsp;Folder yang disarankan</p></div>
+                </div>
+                <div class="file" style="margin-top: 20px;">
+                    <div class="forfolder"><p class="textfile"> &#9013; &nbsp; &nbsp;File yang disarankan</p></div>
+                    <div class="formini">
+                        <div class="mini2">
+                        <div class="mini"></div>
+                        <div class="mini"  style="background-image: url('img/menu-icon.png');"></div>
+                    </div>
+                    <div class="mini1">
+                        <div class="mini" style="background-image: url('img/grid-icon.png'); width: 20px; height: 20px;"></div>
+                    </div>
+                    </div>
+                </div>
+                <table class="tables">
+                    <tr class="thead">
+                        <th class="nama">Nama</th>
+                        <th class="alasan">Alasan file disarankan</th>
+                        <th class="pemilik">Pemilik</th>
+                        <th class="lokasi">Lokasi</th>
+                    </tr>
+                    <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="theid">
+                            <div class="forid">
+                                <div class="jpeg"></div>
+                                <p style="display:inline-block">Screenshoot_20903974_2056754.jpg</p>
+                            </div>
+                        </td>
+                        <td>Anda membukanya <span style="font-weight:900; font-size:large;">&#183; </span>18 Jul 2023
+                        </td>
+                        <td>
+                            <div class="acc">
+                                <div class="foraccimg"><div class="accimg"></div></div>
+                                <p class="accname">saya</p>
+                            </div>
+                        </td>
+                        <td class="location">
+                            <div class="forallloc">
+                                <div class="forloc">
+                                    <div class="locimg"></div>
+                                    <p class="loctext"> Drive Saya</p>
+                                </div>
+                                <div class="for3dot">
+                                    <div class="thedot"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>    
+            </div>
+        </div>
+
         <div class="left">
             <div class="forleftmenu" >
                 <div class="leftmenu" style="background-image: url('img/google-calendar-icon.png');"></div>
